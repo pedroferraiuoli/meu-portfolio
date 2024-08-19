@@ -17,6 +17,7 @@ const App = () => {
           <h1 className="text-4xl font-bold mb-4">Pedro Ferraiuoli</h1>
           <p className="text-lg">Sou estudante de sistemas e desenvolvedor! Conheça um pouco do meu trabalho.</p>
           </div>
+          <img src="/numerados.png" alt="Web Developer" class="object-cover w-[128px] h-[128px] rounded-lg">
           FOTO AQUI
         </section>
         <section id="about" className="mb-20">
