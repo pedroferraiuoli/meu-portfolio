@@ -13,8 +13,10 @@ const App = () => {
       <Sidebar />
       <div className="flex-1 bg-gray-800 text-white p-10">
         <section id="home" className="mb-20 flex">
+          <div id="introducao">
           <h1 className="text-4xl font-bold mb-4">Pedro Ferraiuoli</h1>
           <p className="text-lg">Sou estudante de sistemas e desenvolvedor! Conheça um pouco do meu trabalho.</p>
+          </div>
           FOTO AQUI
         </section>
         <section id="about" className="mb-20">
