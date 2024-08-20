@@ -6,19 +6,43 @@ import { experiences } from './data/experience';
 import { projects } from './data/project';
 import { courses } from './data/curso';
 import './index.css';
+import { HiOutlineAcademicCap } from "react-icons/hi2";
+import { MdOutlineWorkOutline } from "react-icons/md";
 
 const App = () => {
   return (
     <div className="flex">
       <Sidebar />
       <div className="flex-1 bg-gray-800 text-white p-10">
-        <section id="home" className="mb-20 flex">
+        <section id="home" className="mb-20 flex gap-20 items-center justify-center">
+        <img src="/perfil.jpg"  className=" w-36 rounded border-2 border-gray-800"></img>
+
           <div id="introducao">
           <h1 className="text-4xl font-bold mb-4">Pedro Ferraiuoli</h1>
           <p className="text-lg">Sou estudante de sistemas e desenvolvedor! Conheça um pouco do meu trabalho.</p>
+
+          <div className="mt-2 flex flex-wrap gap-2">
+            <span className="bg-gray-600 text-sm px-2 py-1 rounded flex items-center gap-1">
+              Python <div><MdOutlineWorkOutline /></div>
+            </span>
+            <span className="bg-gray-600 text-sm px-2 py-1 rounded flex items-center gap-1">
+              Django <div><MdOutlineWorkOutline /></div>
+            </span>
+            <span className="bg-gray-600 text-sm px-2 py-1 rounded flex items-center gap-1">
+              HTML/CSS <div><MdOutlineWorkOutline /></div>
+            </span>
+            <span className="bg-gray-600 text-sm px-2 py-1 rounded flex items-center gap-1">
+              Power BI <div><MdOutlineWorkOutline /></div>
+            </span>
+            <span className="bg-gray-600 text-sm px-2 py-1 rounded flex items-center gap-1">
+              Java <div><HiOutlineAcademicCap /></div>
+            </span>
+            <span className="bg-gray-600 text-sm px-2 py-1 rounded flex items-center gap-1">
+              MySql <div><HiOutlineAcademicCap /></div>
+            </span>
+        </div>
+
           </div>
-          <img src="/numerados.png" alt="Web Developer" class="object-cover w-[128px] h-[128px] rounded-lg">
-          FOTO AQUI
         </section>
         <section id="about" className="mb-20">
           <h2 className="text-3xl font-semibold mb-4">Sobre Mim</h2>
