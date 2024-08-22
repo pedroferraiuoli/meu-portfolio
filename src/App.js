@@ -13,11 +13,11 @@ const App = () => {
   return (
     <div className="flex flex-col md:flex-row md:ml-64">
       <Sidebar />
-      <div className="flex-1 bg-gray-800 text-white p-4 md:p-10">
-        <section id="home" className="mb-10 md:mb-20 flex flex-col md:flex-row gap-6 md:gap-20 items-center justify-center">
-          <img src="/perfil.jpg" className="w-24 md:w-36 rounded border-2 border-gray-800"></img>
+      <div className="flex-1 bg-gray-900 text-white p-4 md:p-10">
+        <section id="home" className=" flex md:p-0 p-4 md:flex-row gap-6 md:gap-20 items-center justify-center mt-8 md:mt-0">
+          <img src="/perfil.jpg" className="w-24 md:w-36 rounded border-2 border-gray-800 self-start"></img>
 
-          <div id="introducao">
+          <div id="introducao" className=''>
             <h1 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">Pedro Ferraiuoli</h1>
             <p className="text-sm md:text-lg">Sou estudante de sistemas e desenvolvedor! Conheça um pouco do meu trabalho.</p>
 
