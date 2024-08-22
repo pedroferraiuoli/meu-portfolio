@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedin, FaDownload, FaBars, FaTimes } from 'react-icons/fa';
-import { AiOutlineClose } from 'react-icons/ai';
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,24 +9,26 @@ const Sidebar = () => {
   };
 
   return (
-    <div>
-      {!isOpen && (
-      <button onClick={toggleMenu} className="fixed top-4 left-4 z-50 text-white">
-      <FaBars size={24} /> 
-      </button>
-       )}
-
-      <aside
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-800 text-white p-4 border-r border-gray-700 transform ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
-        } transition-transform duration-300 ease-in-out z-40`}
+    <>
+      <button 
+        onClick={toggleMenu} 
+        className={`md:hidden fixed top-4 left-4 z-50 text-white p-2 focus:outline-none ${isOpen ? 'hidden' : ''}`}
       >
-        <button
-          onClick={toggleMenu}
-          className="absolute top-5 right-4 text-white"
-        >
-          <AiOutlineClose size={24} />
-        </button>
+        <FaBars size={24} />
+      </button>
+
+      <button 
+        onClick={toggleMenu} 
+        className={`md:hidden fixed top-4 right-4 z-50 text-white p-2 focus:outline-none ${isOpen ? '' : 'hidden'}`}
+      >
+        <FaTimes size={24} />
+      </button>
+
+      <aside 
+        className={`fixed top-0 left-0 h-screen bg-gray-800 border-r border-gray-700 text-white p-4 z-30 transition-transform transform ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        } md:translate-x-0 md:fixed md:w-64 md:top-0 md:h-screen md:overflow-hidden`}
+      >
         <h1 className="text-2xl font-bold mb-6">Meu portfólio</h1>
         <nav>
           <ul className="space-y-4">
@@ -63,9 +64,7 @@ const Sidebar = () => {
           </ul>
         </div>
       </aside>
-      </div>
-      
-
+    </>
   );
 };
 

@@ -11,7 +11,7 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 
 const App = () => {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row md:ml-64">
       <Sidebar />
       <div className="flex-1 bg-gray-800 text-white p-4 md:p-10">
         <section id="home" className="mb-10 md:mb-20 flex flex-col md:flex-row gap-6 md:gap-20 items-center justify-center">
