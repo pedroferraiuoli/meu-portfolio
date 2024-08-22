@@ -25,9 +25,9 @@ const Sidebar = () => {
       </button>
 
       <aside 
-        className={`fixed top-0 left-0 h-screen bg-gray-800 border-r border-gray-700 text-white p-4 z-30 transition-transform transform ${
+        className={`fixed top-0 left-0 h-screen bg-gray-800 border-r border-gray-700 text-white p-4 transition-transform  ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 md:fixed md:w-64 md:top-0 md:h-screen md:overflow-hidden`}
+        } md:translate-x-0 md:w-64 md:top-0`}
       >
         <h1 className="text-2xl font-bold mb-6">Meu portfólio</h1>
         <nav>
