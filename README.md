@@ -24,9 +24,18 @@ Este é o código-fonte do meu portfólio pessoal, desenvolvido em React e estil
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/pedroferraouoli/meu-portfolio.git
+   
+2. **Navegue até o diretório do projeto**:
+   ```bash
+   cd meu-portfolio
+   
+3. **Instale as dependências**:
+   ```bash
+   npm install
+   
+4. **Execute o projeto**:
+   ```bash
+   npm start
 
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-
-    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+ 
