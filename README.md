@@ -25,3 +25,8 @@ Este é o código-fonte do meu portfólio pessoal, desenvolvido em React e estil
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+
+    ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
