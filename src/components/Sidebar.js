@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaGithub, FaLinkedin, FaDownload, FaBars, FaTimes } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaDownload, FaBars, FaTimes, FaHome, FaCode, FaRegUser } from 'react-icons/fa';
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ const Sidebar = () => {
       </button>
 
       <aside 
-        className={`fixed top-0 left-0 h-screen bg-gray-900 border-r border-gray-600 text-white p-4 transition-transform  ${
+        className={`fixed top-0 left-0 h-screen bg-space border-r border-gray-500 text-white p-4 transition-transform  ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 md:w-64 md:top-0`}
       >
@@ -33,31 +33,31 @@ const Sidebar = () => {
         <nav>
           <ul className="space-y-4">
             <li>
-              <a href="#home" className="hover:underline flex border border-gray-600 p-2 rounded place-content-center">Home</a>
+              <a href="#home" className=" flex p-2 items-center"><FaHome className="mr-2" /> Home</a>
             </li>
             <li>
-              <a href="#projects" className="hover:underline border border-gray-600 p-2 rounded place-content-center flex">Projetos</a>
+              <a href="#projects" className="p-2 flex items-center"><FaCode className="mr-2" />Projetos</a>
             </li>
             <li>
-              <a href="#about" className="hover:underline border border-gray-600 p-2 rounded place-content-center flex">Sobre Mim</a>
+              <a href="#about" className="p-2 flex items-center"><FaRegUser className="mr-2" />Sobre Mim</a>
             </li>
           </ul>
         </nav>
         <div className="mt-8">
-          <h2 className="text-xl mb-4">Socials</h2>
+          <h2 className="text-xl mb-4">Redes Sociais</h2>
           <ul className="space-y-4">
             <li>
-              <a href="https://github.com/pedroferraiuoli" target="_blank" className="flex items-center border border-gray-600 p-2 rounded">
+              <a href="https://github.com/pedroferraiuoli" target="_blank" className="flex items-center p-2">
                 <FaGithub className="mr-2" /> Github
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/pedro-ferraiuoli-283568296" className="flex items-center border border-gray-600 p-2 rounded">
+              <a href="https://linkedin.com/in/pedro-ferraiuoli-283568296" className="flex items-center  p-2">
                 <FaLinkedin className="mr-2" /> LinkedIn
               </a>
             </li>
             <li>
-              <a href="/Currículo.pdf" download className="flex items-center border border-gray-600 p-2 rounded">
+              <a href="/Currículo.pdf" download className="flex items-center  p-2">
                 <FaDownload className="mr-2" /> Currículo
               </a>
             </li>
