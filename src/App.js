@@ -19,7 +19,7 @@ const App = () => {
 
           <div id="introducao" className=''>
             <h1 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">Pedro Ferraiuoli</h1>
-            <p className="text-sm md:text-lg">Sou estudante de sistemas e desenvolvedor! Conheça um pouco do meu trabalho.</p>
+            <p className="text-sm md:text-lg text-gray-300">Sou estudante de sistemas e desenvolvedor! Conheça um pouco do meu trabalho.</p>
 
             <div className="mt-2 flex flex-wrap gap-2">
               <span className="bg-gray-600 text-xs md:text-sm px-2 py-1 rounded flex items-center gap-1">
@@ -46,7 +46,7 @@ const App = () => {
 
         <section id="about" className="mb-10 md:mb-20">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">Sobre Mim</h2>
-          <p className="text-sm md:text-base ">Sou estudante de Sistemas de Informação, atualmente no quinto período, com uma sólida base em várias áreas da tecnologia e desenvolvimento de software. Meu percurso acadêmico inclui cursos em Java e MySQL, que fortaleceram minha compreensão dos fundamentos da programação e gestão de banco de dados.
+          <p className="text-sm md:text-base text-gray-300">Sou estudante de Sistemas de Informação, atualmente no quinto período, com uma sólida base em várias áreas da tecnologia e desenvolvimento de software. Meu percurso acadêmico inclui cursos em Java e MySQL, que fortaleceram minha compreensão dos fundamentos da programação e gestão de banco de dados.
 
 Atualmente, trabalho na prefeitura da minha cidade como analista e gestor de dados e desenvolvedor. Nesse papel, sou responsável por analisar e gerenciar dados, garantindo a integridade e a acessibilidade das informações para suportar a tomada de decisões. Além disso, desenvolvo soluções de software utilizando Python e Django, o que me permite criar aplicações web robustas e eficientes.
 

@@ -29,35 +29,35 @@ const Sidebar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 md:w-64 md:top-0`}
       >
-        <h1 className="text-2xl font-bold mb-6">Meu portfólio</h1>
+        <h1 className="text-2xl font-bold mb-6 text-gray-300">Meu portfólio</h1>
         <nav>
           <ul className="space-y-4">
-            <li>
-              <a href="#home" className=" flex p-2 items-center"><FaHome className="mr-2" /> Home</a>
+            <li className='hover:bg-hover bg-none'>
+              <a href="#home" className=" flex p-2 items-center text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold"><FaHome className="mr-2" /> Home</a>
             </li>
             <li>
-              <a href="#projects" className="p-2 flex items-center"><FaCode className="mr-2" />Projetos</a>
+              <a href="#projects" className="p-2 flex items-center text-white hover:bg-hover hover:text-white hover:bg-[#2023276e] rounded font-semibold"><FaCode className="mr-2" />Projetos</a>
             </li>
             <li>
-              <a href="#about" className="p-2 flex items-center"><FaRegUser className="mr-2" />Sobre Mim</a>
+              <a href="#about" className="p-2 flex items-center text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold"><FaRegUser className="mr-2" />Sobre Mim</a>
             </li>
           </ul>
         </nav>
         <div className="mt-8">
-          <h2 className="text-xl mb-4">Redes Sociais</h2>
+          <h2 className="text-xl mb-4 text-gray-300">Redes Sociais</h2>
           <ul className="space-y-4">
             <li>
-              <a href="https://github.com/pedroferraiuoli" target="_blank" className="flex items-center p-2">
+              <a href="https://github.com/pedroferraiuoli" target="_blank" className="flex items-center p-2 text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold">
                 <FaGithub className="mr-2" /> Github
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/pedro-ferraiuoli-283568296" className="flex items-center  p-2">
+              <a href="https://linkedin.com/in/pedro-ferraiuoli-283568296" className="flex items-center  p-2 text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold">
                 <FaLinkedin className="mr-2" /> LinkedIn
               </a>
             </li>
             <li>
-              <a href="/Currículo.pdf" download className="flex items-center  p-2">
+              <a href="/Currículo.pdf" download className="flex items-center  p-2 text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold">
                 <FaDownload className="mr-2" /> Currículo
               </a>
             </li>
