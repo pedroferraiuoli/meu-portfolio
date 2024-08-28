@@ -33,13 +33,13 @@ const Sidebar = () => {
         <nav>
           <ul className="space-y-4">
             <li className='hover:bg-hover bg-none'>
-              <a href="#home" className=" flex p-2 items-center text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold"><FaHome className="mr-2" /> Home</a>
+              <a href="#home" className=" flex p-2 items-center text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold" onClick={toggleMenu} ><FaHome className="mr-2" /> Home</a>
             </li>
             <li>
-              <a href="#projects" className="p-2 flex items-center text-white hover:bg-hover hover:text-white hover:bg-[#2023276e] rounded font-semibold"><FaCode className="mr-2" />Projetos</a>
+              <a href="#projects" className="p-2 flex items-center text-white hover:bg-hover hover:text-white hover:bg-[#2023276e] rounded font-semibold" onClick={toggleMenu} ><FaCode className="mr-2" />Projetos</a>
             </li>
             <li>
-              <a href="#about" className="p-2 flex items-center text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold"><FaRegUser className="mr-2" />Sobre Mim</a>
+              <a href="#about" className="p-2 flex items-center text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold" onClick={toggleMenu} ><FaRegUser className="mr-2" />Sobre Mim</a>
             </li>
           </ul>
         </nav>
