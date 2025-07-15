@@ -46,7 +46,7 @@ const App = () => {
 
         <section id="about" className="mb-10 md:mb-20">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">Sobre Mim</h2>
-          <p className="text-sm md:text-base text-gray-300">Sou estudante de Sistemas de Informação, atualmente no quinto período, com uma sólida base em várias áreas da tecnologia e desenvolvimento de software. Meu percurso acadêmico inclui cursos em Java e MySQL, que fortaleceram minha compreensão dos fundamentos da programação e gestão de banco de dados.
+          <p className="text-sm md:text-base text-gray-300">Sou estudante de Sistemas de Informação, atualmente no sétimo período, com uma sólida base em várias áreas da tecnologia e desenvolvimento de software. Meu percurso acadêmico inclui cursos em Java e MySQL, que fortaleceram minha compreensão dos fundamentos da programação e gestão de banco de dados.
 
 Atualmente, trabalho na prefeitura da minha cidade como analista e gestor de dados e desenvolvedor. Nesse papel, sou responsável por analisar e gerenciar dados, garantindo a integridade e a acessibilidade das informações para suportar a tomada de decisões. Além disso, desenvolvo soluções de software utilizando Python e Django, o que me permite criar aplicações web robustas e eficientes.
 
