@@ -52,7 +52,7 @@ const Sidebar = () => {
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/pedro-ferraiuoli-283568296" className="flex items-center  p-2 text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold">
+              <a href="https://linkedin.com/in/pedroferraiuoli" className="flex items-center  p-2 text-white hover:text-white hover:bg-[#2023276e] rounded font-semibold">
                 <FaLinkedin className="mr-2" /> LinkedIn
               </a>
             </li>
