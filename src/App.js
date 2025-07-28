@@ -15,7 +15,7 @@ const App = () => {
       <Sidebar />
       <div className="flex-1 bg-space text-white p-4 md:p-10">
         <section id="home" className=" flex md:p-0 p-4 md:flex-row gap-6 md:gap-20 items-center justify-center mt-8 md:mt-0">
-          <img src="/perfil.jpg" className="w-24 md:w-36 rounded self-start"></img>
+          <img src="/perfil.jpg" className="w-24 md:w-40 rounded self-start"></img>
 
           <div id="introducao" className=''>
             <h1 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">Pedro Ferraiuoli</h1>
