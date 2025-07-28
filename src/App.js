@@ -46,13 +46,13 @@ const App = () => {
 
         <section id="about" className="mb-10 md:mb-20">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">Sobre Mim</h2>
-          <p className="text-sm md:text-base text-gray-300">Sou estudante de Sistemas de Informação, atualmente no sétimo período, com uma sólida base em várias áreas da tecnologia e desenvolvimento de software. Meu percurso acadêmico inclui cursos em Java e MySQL, que fortaleceram minha compreensão dos fundamentos da programação e gestão de banco de dados.
+          <p className="text-sm md:text-base text-gray-300">Sou estudante de Sistemas de Informação, atualmente no sétimo período no Instituto Federal Fluminense, e sempre busquei aplicar meus conhecimentos de forma prática, participando de projetos com impacto real. Tenho experiência no desenvolvimento de sistemas web com Python e Django, além de conhecimento em Java, MySQL e outras tecnologias que fui aprendendo ao longo da graduação e das experiências profissionais.
 
-Atualmente, trabalho na prefeitura da minha cidade como analista e gestor de dados e desenvolvedor. Nesse papel, sou responsável por analisar e gerenciar dados, garantindo a integridade e a acessibilidade das informações para suportar a tomada de decisões. Além disso, desenvolvo soluções de software utilizando Python e Django, o que me permite criar aplicações web robustas e eficientes.
+Atuo na Prefeitura de Campos dos Goytacazes, onde desenvolvi e mantenho sistemas internos voltados à área da Educação, como um sistema de gestão de lotações. Também já atuei no setor de Controle Interno, desenvolvendo ferramentas para automatizar processos administrativos.
 
-Tenho experiência com Power BI, que utilizo para criar relatórios e dashboards interativos que ajudam na visualização e análise de dados. Minha combinação de habilidades em análise de dados, desenvolvimento web e visualização de informações me permite contribuir significativamente para projetos e iniciativas que visam melhorar a eficiência e a tomada de decisões baseada em dados.
+Além das experiências institucionais, também participei de projetos de forma autônoma, como o sistema Minhaescola, usado no processo de pré-matrícula da rede municipal, que ajudei a construir desde o início.
 
-Estou sempre buscando aprender e me adaptar às novas tecnologias e metodologias para aprimorar minhas habilidades e entregar soluções inovadoras e eficazes.</p>
+Tenho afinidade com desenvolvimento web e por criar soluções que de fato ajudem as pessoas no dia a dia. Gosto de trabalhar com propósito, aprender coisas novas e me envolver em projetos que desafiem minhas habilidades e me façam crescer como desenvolvedor.</p>
         </section>
 
         <section id="experience" className="mb-10 md:mb-20">
