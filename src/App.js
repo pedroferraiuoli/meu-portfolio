@@ -11,7 +11,7 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 
 const App = () => {
   useEffect(() => {
-    document.title = "Pedro Ferraiuoli | Meu Portfólio";
+    document.title = "Pedro Ferraiuoli | Portfólio";
   }, []);
 
   return (
