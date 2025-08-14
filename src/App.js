@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import ExperienceCard from './components/ExperienceCard';
 import ProjectCard from './components/ProjectCard';
@@ -10,6 +10,10 @@ import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { MdOutlineWorkOutline } from "react-icons/md";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Pedro Ferraiuoli | Meu Portfólio";
+  }, []);
+
   return (
     <div className="flex flex-col md:flex-row md:ml-64">
       <Sidebar />
